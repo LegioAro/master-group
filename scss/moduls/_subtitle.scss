@@ -1,0 +1,13 @@
+.subtitle {
+  font-weight: 400;
+  font-size: calc(18px + (32 - 18) * ((100vw - 320px) / (1440 - 320)));
+  line-height: calc(22px + (39 - 22) * ((100vw - 320px) / (1440 - 320)));
+  text-align: center;
+  text-transform: uppercase;
+}
+@media (min-width: 1440px) {
+  .subtitle {
+    font-size: 32px;
+    line-height: 39px;
+  }
+}
