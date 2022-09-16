@@ -8,11 +8,11 @@
   position: relative;
   color: #000;
   height: fit-content;
-  min-height: fit-content;
+  min-height: 766px;
 
   &__wrapper {
     justify-content: center;
-    padding: 150px 20px 50px;
+    padding: 100px 20px 50px;
     background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
     z-index: 100;
@@ -133,6 +133,9 @@
 @media (max-width: 650px) {
   .modal {
     padding: 80px 30px 60px;
+    &__wrapper {
+      padding: 20px 20px 50px;
+    }
     &__title {
       font-size: 24px;
     }
@@ -157,7 +160,7 @@
 
 @media (max-width: 450px) {
   .modal {
-    // min-height: 631px;
+    min-height: 740px;
     padding: 80px 15px 60px;
     &__title {
       font-size: 22px;
