@@ -87,7 +87,7 @@
                 </div>
               </div>
               <div class="option__item-btn">
-                <button class="btn">Выбираю Econom</button>
+                <button class="btn modal__btn" data-modal-src="form-econom">Выбираю Econom</button>
               </div>
             </div>
             <div class="option__item">
@@ -105,7 +105,7 @@
                   <span> Бонус #5.</span> Как Делать Убойные Сторис
                 </div>
                 <div class="option__item-variant">
-                  <span> Разбор от Артема (не предусмотрен)</span>
+                  <span> Разбор от Артема (есил будет время) </span>
                 </div>
                 <div class="option__item-variant">
                   <span> Бонус #6.</span> Безумный Трафик в МЛМ (150$)
@@ -152,7 +152,9 @@
                 </div>
               </div>
               <div class="option__item-btn">
-                <button class="btn">Выбираю standart</button>
+                <button class="btn modal__btn" data-modal-src="form-standart">
+                  Выбираю standart
+                </button>
               </div>
             </div>
             <div class="option__item">
@@ -170,7 +172,7 @@
                   <span> Бонус #5.</span> Как Делать Убойные Сторис
                 </div>
                 <div class="option__item-variant">
-                  <span> Разбор от Артема (не предусмотрен)</span>
+                  <span> Разбор от Артема (есил будет время) </span>
                 </div>
                 <div class="option__item-variant">
                   <span> Бонус #6.</span> Безумный Трафик в МЛМ (150$)
@@ -217,12 +219,139 @@
                 </div>
               </div>
               <div class="option__item-btn">
-                <button class="btn">Выбираю PREMIUM</button>
+                <button class="btn modal__btn" data-modal-src="form-premium">
+                  Выбираю PREMIUM
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <div class="modal__wrapper" data-modal-window="form-econom">
+      <form action="" class="modal">
+        <div class="modal__close"><div class="modal__close-btn"></div></div>
+
+        <!-- <div class="modal__img"><img src="image/modal/box.png" alt="" /></div> -->
+        <div class="option__item-title">Econom</div>
+        <div class="option__item-info">
+          <div class="option__item-info-title">Стоимость Участия</div>
+          <div class="option__item-info-text option__item-info-text-dedicated">39$</div>
+        </div>
+        <div class="modal__input-block">
+          <input
+            type="text"
+            required
+            name=""
+            value=""
+            placeholder="Ваше Имя"
+            class="modal__input"
+          />
+          <input
+            type="email"
+            required
+            name=""
+            value=""
+            placeholder="Ваш Email (основной)"
+            class="modal__input"
+          />
+          <input
+            type="number"
+            required
+            name=""
+            value=""
+            placeholder="Ваш Телефон (международный)"
+            class="modal__input"
+          />
+        </div>
+        <button class="btn">Принять участие</button>
+        <div class="modal__subtext">Ваши данные не будут переданы третьим лицам</div>
+      </form>
+    </div>
+
+    <div class="modal__wrapper" data-modal-window="form-standart">
+      <form action="" class="modal">
+        <div class="modal__close"><div class="modal__close-btn"></div></div>
+
+        <!-- <div class="modal__img"><img src="image/modal/box.png" alt="" /></div> -->
+        <div class="option__item-title">standart</div>
+        <div class="option__item-info">
+          <div class="option__item-info-title">Стоимость Участия</div>
+          <div class="option__item-info-text option__item-info-text-dedicated">99$</div>
+        </div>
+        <div class="modal__input-block">
+          <input
+            type="text"
+            required
+            name=""
+            value=""
+            placeholder="Ваше Имя"
+            class="modal__input"
+          />
+          <input
+            type="email"
+            required
+            name=""
+            value=""
+            placeholder="Ваш Email (основной)"
+            class="modal__input"
+          />
+          <input
+            type="number"
+            required
+            name=""
+            value=""
+            placeholder="Ваш Телефон (международный)"
+            class="modal__input"
+          />
+        </div>
+        <button class="btn">Принять участие</button>
+        <div class="modal__subtext">Ваши данные не будут переданы третьим лицам</div>
+      </form>
+    </div>
+
+    <div class="modal__wrapper" data-modal-window="form-premium">
+      <form action="" class="modal">
+        <div class="modal__close"><div class="modal__close-btn"></div></div>
+
+        <!-- <div class="modal__img"><img src="image/modal/box.png" alt="" /></div> -->
+        <div class="option__item-title">premium</div>
+        <div class="option__item-info">
+          <div class="option__item-info-title">Стоимость Участия</div>
+          <div class="option__item-info-text option__item-info-text-dedicated">199$</div>
+        </div>
+        <div class="modal__input-block">
+          <input
+            type="text"
+            required
+            name=""
+            value=""
+            placeholder="Ваше Имя"
+            class="modal__input"
+          />
+          <input
+            type="email"
+            required
+            name=""
+            value=""
+            placeholder="Ваш Email (основной)"
+            class="modal__input"
+          />
+          <input
+            type="number"
+            required
+            name=""
+            value=""
+            placeholder="Ваш Телефон (международный)"
+            class="modal__input"
+          />
+        </div>
+        <button class="btn">Принять участие</button>
+        <div class="modal__subtext">Ваши данные не будут переданы третьим лицам</div>
+      </form>
+    </div>
+
+    <script src="js/main.js"></script>
   </body>
 </html>

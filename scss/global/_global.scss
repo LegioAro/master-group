@@ -2,6 +2,9 @@ body {
   background-color: #161c28;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
+  &.lock {
+    overflow: hidden;
+  }
 }
 
 .container {
@@ -17,4 +20,5 @@ body {
 }
 .crossed-out {
   text-decoration: line-through;
+  opacity: 0.5;
 }
